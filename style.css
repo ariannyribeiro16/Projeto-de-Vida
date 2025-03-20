@@ -3,7 +3,7 @@
 --verde:#a04a4a;
 --branco:#ffffff;
 --botao-ativo:#631212;
---botao-inativo:#630000;
+--botao-inativo:#8b3c3c;
 --texto-fundo:#a15050;
 }
 body{
@@ -24,4 +24,19 @@ body{
     text-align: center;
     width: 100%;
     font-size: 32px;
+}
+.botao{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 12px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
 }
